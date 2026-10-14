@@ -1,0 +1,23 @@
+# Terraform working files
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# OS files
+.DS_Store
